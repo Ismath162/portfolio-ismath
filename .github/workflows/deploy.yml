@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - master
+      - copilot/publish-website-without-errors
   workflow_dispatch:
 
 permissions:

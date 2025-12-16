@@ -4,34 +4,43 @@ This document provides step-by-step instructions to publish your portfolio websi
 
 ## Prerequisites
 
-- This Pull Request has been created and contains all necessary changes
 - Repository: `Ismath162/portfolio-ismath-master`
 - Branch: `copilot/publish-website-without-errors`
 
-## Steps to Publish the Website
+## Quick Deployment (Current Branch)
 
-### Step 1: Merge the Pull Request
+Since this repository doesn't have a `main` or `master` branch yet, the workflow has been configured to deploy directly from the current branch.
 
-1. Review the changes in this Pull Request
-2. Merge the PR into the `main` or `master` branch
-3. The GitHub Actions workflow will automatically trigger
-
-### Step 2: Enable GitHub Pages (First Time Only)
-
-If this is the first time deploying to GitHub Pages, you need to configure the settings:
+### Step 1: Enable GitHub Pages
 
 1. Go to your repository on GitHub: https://github.com/Ismath162/portfolio-ismath-master
 2. Click on **Settings** tab
-3. Scroll down to **Pages** section in the left sidebar
-4. Under "Source", select **GitHub Actions** as the deployment source
-5. Save the settings
+3. In the left sidebar, click on **Pages**
+4. Under "Build and deployment":
+   - **Source**: Select **GitHub Actions**
+5. The settings should save automatically
+
+### Step 2: Trigger the Workflow
+
+The workflow can be triggered in two ways:
+
+**Option A: Automatic (Recommended)**
+1. The workflow will automatically trigger when this PR is merged or when new commits are pushed to the current branch
+2. Go to the **Actions** tab in your repository
+3. You should see a workflow run named "Deploy to GitHub Pages"
+
+**Option B: Manual Trigger**
+1. Go to the **Actions** tab in your repository
+2. Click on "Deploy to GitHub Pages" workflow on the left
+3. Click the "Run workflow" button
+4. Select the branch: `copilot/publish-website-without-errors`
+5. Click "Run workflow"
 
 ### Step 3: Wait for Deployment
 
-1. After merging, go to the **Actions** tab in your repository
-2. You should see a workflow run named "Deploy to GitHub Pages"
-3. Wait for it to complete (usually takes 1-2 minutes)
-4. Once complete, the workflow will show a green checkmark
+1. In the **Actions** tab, watch the workflow run
+2. Wait for it to complete (usually takes 1-2 minutes)
+3. Once complete, the workflow will show a green checkmark
 
 ### Step 4: Access Your Live Website
 
