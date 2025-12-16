@@ -2,13 +2,27 @@
 
 ## ✅ READY TO DEPLOY!
 
-All files have been prepared and are ready for deployment. Simply run the deployment script:
+All files have been prepared and are ready for deployment. 
+
+### For Windows (PowerShell)
+
+Run the PowerShell deployment script:
+
+```powershell
+.\deploy.ps1
+```
+
+### For Mac/Linux (Bash)
+
+Run the bash deployment script:
 
 ```bash
 ./deploy.sh
 ```
 
-Or manually:
+### Manual Deployment (All Platforms)
+
+Or manually execute these git commands:
 
 ```bash
 git checkout main
