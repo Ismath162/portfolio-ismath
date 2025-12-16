@@ -1,0 +1,59 @@
+/* Profile Image Placeholder */
+/* This is a CSS-generated placeholder for the profile image */
+/* Replace with your actual photo when available */
+
+.profile-img-placeholder {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.profile-img-placeholder::before {
+    content: "IF";
+}
+
+/* Project Image Placeholders */
+.project-img-placeholder {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+
+.link-protection-placeholder {
+    background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+}
+
+.bus-reservation-placeholder {
+    background: linear-gradient(135deg, #4ECDC4 0%, #45B7B8 100%);
+}
+
+.fitness-dashboard-placeholder {
+    background: linear-gradient(135deg, #A8E6CF 0%, #88D8A3 100%);
+}
+
+.edubot-placeholder {
+    background: linear-gradient(135deg, #FFD93D 0%, #FF6B6B 100%);
+}
+
+.intrusion-detection-placeholder {
+    background: linear-gradient(135deg, #6C5CE7 0%, #A29BFE 100%);
+}
+
+.pedestrian-safety-placeholder {
+    background: linear-gradient(135deg, #00B894 0%, #55A3FF 100%);
+}
