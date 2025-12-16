@@ -116,10 +116,6 @@ class NavigationManager {
                     top: offsetTop,
                     behavior: 'smooth'
                 });
-                // Add a longer delay for better visual effect
-                setTimeout(() => {
-                    // Ensure scroll is complete
-                }, 800);
             }
         }
     }
